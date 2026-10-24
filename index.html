@@ -1,201 +1,623 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gökmen GmbH Garten- & Landschaftsbau </title>
-        <meta name="description" content="Beispielseite eines Garten- und Landschaftsbaubetriebs: Planung, Neuanlage, Pflaster, Terrassen und Pflege.">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="./css/sytle.css">
-    </head>
-    <body>
-        <a class="skip" href="#main">Zum Inhalt springen</a>
 
-        <header class="nav" id="top">
-            <a class="logo" href="#top" aria-label="Gökmen GmbH - Startseite">
-                <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M12 22V10M12 12C5 12 4 6 4 3c5 0 8 3 8 9Zm0 3c6 0 8-4 8-8-5 0-8 3-8 8Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-                <span>Gökmen GmbH<small>Garten- & Landschaftsbau</small></span>
-            </a>
-            <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menü öffnen"><span></span><span></span></button>
-            <nav id="menu" aria-label="Hauptnavigation">
-                <a href="#philosophie">Philosophie</a><a href="#leistungen">Leistungen</a><a href="#projekte">Projekte</a>
-                <a href="#ueber-uns">Über uns</a><a href="#fuhrpark">Fuhrpark</a><a href="#faq">FAQ</a>
-                <a class="btn btn--sm" href="#kontakt">Kontakt</a>
-            </nav>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gökmen GmbH Garten- & Landschaftsbau </title>
+    <meta name="description"
+        content="Beispielseite eines Garten- und Landschaftsbaubetriebs: Planung, Neuanlage, Pflaster, Terrassen und Pflege.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
-        <main id="main">
+<body id="#top">
+    <a class="skip" href="#main">Zum Inhalt springen</a>
+
+    <header class="nav">
+        <a class="logo" href="#top" aria-label="Gökmen GmbH - Startseite">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path d="M12 22V10M12 12C5 12 4 6 4 3c5 0 8 3 8 9Zm0 3c6 0 8-4 8-8-5 0-8 3-8 8Z" fill="none"
+                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+            <span>Gökmen GmbH<small>Garten- & Landschaftsbau</small></span>
+        </a>
+        <button class="burger" aria-expanded="false" aria-controls="menu"
+            aria-label="Menü öffnen"><span></span><span></span></button>
+        <nav id="menu" aria-label="Hauptnavigation">
+            <a href="#philosophie">Philosophie</a><a href="#leistungen">Leistungen</a><a href="#projekte">Projekte</a>
+            <a href="#ueber-uns">Über uns</a><a href="#spenden">Spenden & Auszeichnungen</a><a href="#fuhrpark">Fuhrpark</a><a href="#faq">FAQ</a>
+            <a class="btn btn--sm" href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main id="main">
         <section class="hero" aria-labelledby="h-hero">
-            <div class="hero__bg" role="img" aria-label="Beispielbild: naturnaher Garten mit Staudenbeeten und Natursteinweg" style="--img:url('images/hero-garten.jpg')"></div>
+            <div class="hero__bg" role="img"
+                aria-label="Beispielbild: naturnaher Garten mit Staudenbeeten und Natursteinweg"
+                style="--img:url('../img/header1.jpg')"></div>
             <div class="hero__txt">
-                <p class="">Garten- und Landschaftsbau · Rosenheim & Umbegung</p>
+                <p class="">Garten- und Landschaftsbau · Rosenheim & Umgebung</p>
                 <h1 id="h-hero">Gärten, die mit<br>der Zeit schöner werden.</h1>
-                <p>Wir planen, bauen und pflegen Außenräume, die zu Ihnen und zur Landschaft passen – naturnah, handwerklich sauber und auf Jahrzehnte gedacht.</p>
+                <p>Wir planen, bauen und pflegen Außenräume, die zu Ihnen und zur Landschaft passen – naturnah,
+                    handwerklich sauber und auf Jahrzehnte gedacht.</p>
                 <a class="btn" href="#kontakt">Beratung anfragen <span aria-hidden="true">↗</span></a>
             </div>
             <a class="scroll" href="#philosophie" aria-label="Nach unten scrollen">Scrollen ↓</a>
         </section>
 
-            <section class="sec sec--light" id="philosophie" aria-labelledby="h-phil">
+        <section class="sec sec--light" id="philosophie" aria-labelledby="h-phil">
             <p class="eyebrow center">Unsere Philosophie</p>
-            <h2 id="h-phil" class="statement reveal">Wir gestalten Außenräume <span class="pill" aria-hidden="true">🌿</span> aus lebendigen Materialien, setzen auf <em>heimische Pflanzen und regionalen Stein</em> und bauen so, dass Ihr Garten in zehn Jahren noch besser aussieht als am ersten Tag.</h2>
-            <ul class="tags"><li>Naturnah</li><li>Langlebig</li><li>Pflegeleicht</li><li>Regional</li><li>Insektenfreundlich</li></ul>
+            <h2 id="h-phil" class="statement reveal">Wir gestalten Außenräume <span class="pill"
+                    aria-hidden="true">🌿</span> aus lebendigen Materialien, setzen auf <em>heimische Pflanzen und
+                    regionalen Stein</em> und bauen so, dass Ihr Garten in zehn Jahren noch besser aussieht als am
+                ersten Tag.</h2>
+            <ul class="tags">
+                <li>Naturnah</li>
+                <li>Langlebig</li>
+                <li>Pflegeleicht</li>
+                <li>Regional</li>
+                <li>Insektenfreundlich</li>
+            </ul>
         </section>
 
         <section class="sec sec--dark" id="leistungen" aria-labelledby="h-leist">
-        <svg class="vine" viewBox="0 0 400 120" aria-hidden="true" focusable="false"><path d="M0 100C60 100 80 40 140 50S230 100 290 60 360 20 400 30" fill="none" stroke="#6D7037" stroke-width="2"/><g fill="#6D7037"><ellipse cx="140" cy="46" rx="10" ry="5" transform="rotate(-30 140 46)"/><ellipse cx="290" cy="56" rx="10" ry="5" transform="rotate(30 290 56)"/><ellipse cx="360" cy="24" rx="9" ry="4" transform="rotate(-40 360 24)"/></g></svg>
-        <p class="eyebrow center">Leistungen</p>
-        <h2 id="h-leist" class="center">Vom ersten Strich bis zur Pflege</h2>
-        <p class="lead center">Alles aus einer Hand – oder einzeln buchbar.</p>
-        <ul class="cards">
-            <li class="card reveal"><span class="num">01</span><h3>Gartenplanung</h3><p>Entwurf, Pflanzplan und Materialkonzept – anschaulich und auf Ihr Budget abgestimmt.</p></li>
-            <li class="card card--img reveal" style="--img:url('images/neuanlage.jpg')"><span class="num">02</span><h3>Neuanlage</h3><p>Vom Erdbau bis zur Ansaat: Wir verwandeln Rohbauflächen in Gärten.</p></li>
-            <li class="card card--accent reveal"><span class="num">03</span><h3>Pflasterarbeiten</h3><p>Wege, Einfahrten und Plätze in Naturstein oder Beton – mit sauberem Unterbau.</p></li>
-            <li class="card reveal"><span class="num">04</span><h3>Terrassenbau</h3><p>Holz, Stein oder Feinsteinzeug: Ihr Platz an der Sonne, passgenau gebaut.</p></li>
-            <li class="card card--img reveal" style="--img:url('images/pflanzen.jpg')"><span class="num">05</span><h3>Pflanzkonzepte</h3><p>Stauden, Gehölze und Gräser für Struktur, Blüte und Artenvielfalt über das ganze Jahr.</p></li>
-            <li class="card card--accent reveal"><span class="num">06</span><h3>Gartenpflege</h3><p>Regelmäßige Pflege, Rückschnitt und Rasenpflege – damit alles in Form bleibt.</p></li>
-        </ul>
+            <svg class="vine" viewBox="0 0 400 120" aria-hidden="true" focusable="false">
+                <path d="M0 100C60 100 80 40 140 50S230 100 290 60 360 20 400 30" fill="none" stroke="#6D7037"
+                    stroke-width="2" />
+                <g fill="#6D7037">
+                    <ellipse cx="140" cy="46" rx="10" ry="5" transform="rotate(-30 140 46)" />
+                    <ellipse cx="290" cy="56" rx="10" ry="5" transform="rotate(30 290 56)" />
+                    <ellipse cx="360" cy="24" rx="9" ry="4" transform="rotate(-40 360 24)" />
+                </g>
+            </svg>
+            <p class="eyebrow center">Leistungen</p>
+            <h2 id="h-leist" class="center">Vom ersten Strich bis zur Pflege</h2>
+            <p class="lead center">Alles aus einer Hand – oder einzeln buchbar.</p>
+            <!-- BLÜTENBLATT-NAVIGATION: Die sechs Blätter entsprechen den sechs Leistungskarten oben.
+       Texte hier ggf. gemeinsam mit den Karten anpassen. -->
+            <div class="bloom" data-bloom>
+                <h3 class="center bloom__h">Leistungen – Blatt für Blatt</h3>
+                <p class="lead center">Wählen Sie ein Blütenblatt, nutzen Sie die Pfeiltasten oder die Schaltflächen und
+                    die Blume dreht sich zur passenden Leistung.</p>
+
+                <div class="bloom__grid">
+                    <div class="flower reveal">
+                        <div class="flower__tabs" role="tablist" aria-label="Leistungen als Blütenblätter"
+                            aria-describedby="bloom-hint">
+                            <button class="petal" role="tab" id="petal-0" aria-selected="true"
+                                aria-controls="petal-panel-0" tabindex="0" style="--a:0deg;--i:0"><span
+                                    class="petal__in"><span class="petal__lbl">Garten&shy;planung</span></span></button>
+                            <button class="petal" role="tab" id="petal-1" aria-selected="false"
+                                aria-controls="petal-panel-1" tabindex="-1" style="--a:60deg;--i:1"><span
+                                    class="petal__in"><span class="petal__lbl">Neu&shy;anlage</span></span></button>
+                            <button class="petal" role="tab" id="petal-2" aria-selected="false"
+                                aria-controls="petal-panel-2" tabindex="-1" style="--a:120deg;--i:2"><span
+                                    class="petal__in"><span
+                                        class="petal__lbl">Pflaster&shy;arbeiten</span></span></button>
+                            <button class="petal" role="tab" id="petal-3" aria-selected="false"
+                                aria-controls="petal-panel-3" tabindex="-1" style="--a:180deg;--i:3"><span
+                                    class="petal__in"><span class="petal__lbl">Terrassen&shy;bau</span></span></button>
+                            <button class="petal" role="tab" id="petal-4" aria-selected="false"
+                                aria-controls="petal-panel-4" tabindex="-1" style="--a:240deg;--i:4"><span
+                                    class="petal__in"><span
+                                        class="petal__lbl">Pflanz&shy;konzepte</span></span></button>
+                            <button class="petal" role="tab" id="petal-5" aria-selected="false"
+                                aria-controls="petal-panel-5" tabindex="-1" style="--a:300deg;--i:5"><span
+                                    class="petal__in"><span class="petal__lbl">Garten&shy;pflege</span></span></button>
+                        </div>
+                        <div class="flower__core" aria-hidden="true"><span data-bloom-num>01</span></div>
+                    </div>
+
+                    <div class="bloom__panel">
+                        <div role="tabpanel" id="petal-panel-0" aria-labelledby="petal-0" tabindex="0">
+                            <p class="bloom__no">01</p>
+                            <h4>Gartenplanung</h4>
+                            <p>Entwurf, Pflanzplan und Materialkonzept – anschaulich und auf Ihr Budget abgestimmt.</p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div role="tabpanel" id="petal-panel-1" aria-labelledby="petal-1" tabindex="0" hidden>
+                            <p class="bloom__no">02</p>
+                            <h4>Neuanlage</h4>
+                            <p>Vom Erdbau bis zur Ansaat: Wir verwandeln Rohbauflächen in Gärten.</p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div role="tabpanel" id="petal-panel-2" aria-labelledby="petal-2" tabindex="0" hidden>
+                            <p class="bloom__no">03</p>
+                            <h4>Pflasterarbeiten</h4>
+                            <p>Wege, Einfahrten und Plätze in Naturstein oder Beton – mit sauberem Unterbau.</p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div role="tabpanel" id="petal-panel-3" aria-labelledby="petal-3" tabindex="0" hidden>
+                            <p class="bloom__no">04</p>
+                            <h4>Terrassenbau</h4>
+                            <p>Holz, Stein oder Feinsteinzeug: Ihr Platz an der Sonne, passgenau gebaut.</p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div role="tabpanel" id="petal-panel-4" aria-labelledby="petal-4" tabindex="0" hidden>
+                            <p class="bloom__no">05</p>
+                            <h4>Pflanzkonzepte</h4>
+                            <p>Stauden, Gehölze und Gräser für Struktur, Blüte und Artenvielfalt über das ganze Jahr.
+                            </p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div role="tabpanel" id="petal-panel-5" aria-labelledby="petal-5" tabindex="0" hidden>
+                            <p class="bloom__no">06</p>
+                            <h4>Gartenpflege</h4>
+                            <p>Regelmäßige Pflege, Rückschnitt und Rasenpflege – damit alles in Form bleibt.</p>
+                            <a class="btn" href="#kontakt">Dazu beraten lassen <span aria-hidden="true">↗</span></a>
+                        </div>
+
+                        <div class="bloom__ctrl">
+                            <button type="button" class="bloom__btn" data-bloom-prev
+                                aria-label="Vorheriges Blütenblatt">‹</button>
+                            <span class="bloom__count" data-bloom-count aria-hidden="true">01 / 06</span>
+                            <button type="button" class="bloom__btn" data-bloom-next
+                                aria-label="Nächstes Blütenblatt">›</button>
+                        </div>
+                        <p id="bloom-hint" class="bloom__hint">Tipp: Pfeiltasten ← → nutzen oder auf dem Smartphone über
+                            die Blume wischen.</p>
+                        <p class="vh" role="status" data-bloom-status></p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="sec sec--accent" aria-labelledby="h-zahlen">
-        <p class="eyebrow center">Zahlen &amp; Fakten</p>
-        <h2 id="h-zahlen" class="center">Unser Erfolg in Zahlen</h2>
-        <dl class="stats">
-            <div><dt>Abgeschlossene Projekte</dt><dd>1.200+</dd></div>
-            <div><dt>Jahre Erfahrung</dt><dd>25</dd></div>
-            <div><dt>Mitarbeitende</dt><dd>15</dd></div>
-            <div><dt>Gepflanzte Bäume</dt><dd>10.000+</dd></div>
-        </dl>
-        <p class="note center">Hinweisbereich, falls notwendig!</p>
+            <p class="eyebrow center">Zahlen &amp; Fakten</p>
+            <h2 id="h-zahlen" class="center">Unser Erfolg in Zahlen</h2>
+            <dl class="stats">
+                <div>
+                    <dt>Abgeschlossene Projekte</dt>
+                    <dd><span data-count="1200" data-suffix="+" aria-hidden="true">1.200+</span><span class="vh">250+</span></dd>
+                </div>
+                <div>
+                    <dt>Jahre Erfahrung</dt>
+                    <dd><span data-count="25" aria-hidden="true">25</span><span class="vh">25</span></dd>
+                </div>
+                <div>
+                    <dt>Mitarbeitende</dt>
+                    <dd><span data-count="15" aria-hidden="true">15</span><span class="vh">15</span></dd>
+                </div>
+                <div>
+                    <dt>Gepflanzte Bäume</dt>
+                    <dd><span data-count="10000" data-suffix="+" aria-hidden="true">^0.000+</span><span class="vh">10.000+</span></dd>
+                </div>
+            </dl>
+            <p class="note center">Hinweisbereich, falls notwendig!</p>
         </section>
 
         <section class="sec sec--light" id="projekte" aria-labelledby="h-proj">
-        <p class="eyebrow center">Projekt-Highlights</p>
-        <h2 id="h-proj" class="center">Gärten, auf die wir stolz sind</h2>
-        <!-- PLATZHALTER: Projekte, Orte und Bilder durch echte Referenzen ersetzen. -->
-        <ol class="projects">
-            <li class="proj reveal"><div class="proj__t"><p class="meta">📍 [Ort], Privatgarten</p><h3>Naturgarten am Hang</h3></div><div class="ph" role="img" aria-label="Beispielbild: Hanggarten mit Trockenmauer" style="--img:url('images/projekt-1.jpg')"></div><div class="proj__d"><p>Trockenmauern, Staudenbeete und ein Weg aus Naturstein fügen sich in die Hanglage ein.</p><p class="row"><span>Leistung</span><b>Planung &amp; Neuanlage</b></p><p class="row"><span>Jahr</span><b>[Jahr]</b></p></div></li>
-            <li class="proj proj--rev reveal"><div class="proj__t"><p class="meta">📍 [Ort], Wohnanlage</p><h3>Hofplatz mit Pflaster</h3></div><div class="ph" role="img" aria-label="Beispielbild: gepflasterter Hof mit Baumpflanzung" style="--img:url('images/projekt-2.jpg')"></div><div class="proj__d"><p>Ein versickerungsfähiger Belag und Baumscheiben machen den Hof zum Treffpunkt.</p><p class="row"><span>Leistung</span><b>Pflasterarbeiten</b></p><p class="row"><span>Jahr</span><b>[Jahr]</b></p></div></li>
-            <li class="proj reveal"><div class="proj__t"><p class="meta">📍 [Ort], Einfamilienhaus</p><h3>Terrasse im Grünen</h3></div><div class="ph" role="img" aria-label="Beispielbild: Holzterrasse mit Gräsern" style="--img:url('images/projekt-3.jpg')"></div><div class="proj__d"><p>Eine Holzterrasse, umrahmt von Gräsern und Lavendel, verbindet Haus und Garten.</p><p class="row"><span>Leistung</span><b>Terrasse &amp; Pflanzung</b></p><p class="row"><span>Jahr</span><b>[Jahr]</b></p></div></li>
-        </ol>
+            <p class="eyebrow center">Projekt-Highlights</p>
+            <h2 id="h-proj" class="center">Gärten, auf die wir stolz sind</h2>
+            <!-- PLATZHALTER: Projekte, Orte und Bilder durch echte Referenzen ersetzen. -->
+            <ol class="projects">
+                <li class="proj reveal">
+                    <div class="proj__t">
+                        <p class="meta">📍 [Ort], Privatgarten</p>
+                        <h3>Naturgarten am Hang</h3>
+                    </div>
+                    <div class="ph" role="img" aria-label="Beispielbild: Hanggarten mit Trockenmauer"
+                        style="--img:url('images/projekt-1.jpg')"></div>
+                    <div class="proj__d">
+                        <p>Trockenmauern, Staudenbeete und ein Weg aus Naturstein fügen sich in die Hanglage ein.</p>
+                        <p class="row"><span>Leistung</span><b>Planung &amp; Neuanlage</b></p>
+                        <p class="row"><span>Jahr</span><b>[Jahr]</b></p>
+                    </div>
+                </li>
+                <li class="proj proj--rev reveal">
+                    <div class="proj__t">
+                        <p class="meta">📍 [Ort], Wohnanlage</p>
+                        <h3>Hofplatz mit Pflaster</h3>
+                    </div>
+                    <div class="ph" role="img" aria-label="Beispielbild: gepflasterter Hof mit Baumpflanzung"
+                        style="--img:url('images/projekt-2.jpg')"></div>
+                    <div class="proj__d">
+                        <p>Ein versickerungsfähiger Belag und Baumscheiben machen den Hof zum Treffpunkt.</p>
+                        <p class="row"><span>Leistung</span><b>Pflasterarbeiten</b></p>
+                        <p class="row"><span>Jahr</span><b>[Jahr]</b></p>
+                    </div>
+                </li>
+                <li class="proj reveal">
+                    <div class="proj__t">
+                        <p class="meta">📍 [Ort], Einfamilienhaus</p>
+                        <h3>Terrasse im Grünen</h3>
+                    </div>
+                    <div class="ph" role="img" aria-label="Beispielbild: Holzterrasse mit Gräsern"
+                        style="--img:url('images/projekt-3.jpg')"></div>
+                    <div class="proj__d">
+                        <p>Eine Holzterrasse, umrahmt von Gräsern und Lavendel, verbindet Haus und Garten.</p>
+                        <p class="row"><span>Leistung</span><b>Terrasse &amp; Pflanzung</b></p>
+                        <p class="row"><span>Jahr</span><b>[Jahr]</b></p>
+                    </div>
+                </li>
+            </ol>
         </section>
 
         <section class="sec sec--dark" id="ueber-uns" aria-labelledby="h-uns">
-        <p class="eyebrow center">Über uns</p>
-        <h2 id="h-uns" class="center">Menschen mit Erde an den Händen</h2>
-        <p class="lead center">[Platzhalter: Kurze Firmengeschichte, Gründungsjahr, Standort und Einsatzgebiet hier einfügen.]</p>
-        <ul class="team">
-            <li><div class="ph ph--p" role="img" aria-label="Platzhalterporträt" style="--img:url('images/team-1.jpg')"></div><h3>[Vorname Nachname]</h3><p>Inhaber:in &amp; Landschaftsgärtner:in</p></li>
-            <li><div class="ph ph--p" role="img" aria-label="Platzhalterporträt" style="--img:url('images/team-2.jpg')"></div><h3>[Vorname Nachname]</h3><p>Planung &amp; Bauleitung</p></li>
-            <li><div class="ph ph--p" role="img" aria-label="Platzhalterporträt" style="--img:url('images/team-3.jpg')"></div><h3>[Vorname Nachname]</h3><p>Pflanzung &amp; Pflege</p></li>
-            <li><div class="ph ph--p" role="img" aria-label="Platzhalterporträt" style="--img:url('images/team-4.jpg')"></div><h3>[Vorname Nachname]</h3><p>Pflaster &amp; Terrassenbau</p></li>
-        </ul>
-        </section>
-
-        <section class="sec sec--light sec--tight" aria-labelledby="h-partner">
-        <h2 id="h-partner" class="center h-sm">Partner &amp; Lieferanten</h2>
-        <!-- PLATZHALTER: Musterlogos durch echte Partnerlogos ersetzen (nur belegte Partnerschaften). -->
-        <div class="carousel" data-carousel>
-            <button class="car-btn" data-prev aria-label="Vorherige Partner">‹</button>
-            <ul class="track" tabindex="0" aria-label="Partnerlogos, horizontal scrollbar">
-            <li>Musterlogo A</li><li>Musterlogo B</li><li>Musterlogo C</li><li>Musterlogo D</li><li>Musterlogo E</li><li>Musterlogo F</li>
+            <p class="eyebrow center">Über uns</p>
+            <h2 id="h-uns" class="center">Menschen mit Erde an den Händen</h2>
+            <p class="lead center">[Platzhalter: Kurze Firmengeschichte, Gründungsjahr, Standort und Einsatzgebiet hier
+                einfügen.]</p>
+            <ul class="team">
+                <li>
+                    <div class="ph ph--p" role="img" aria-label="Platzhalterporträt"
+                        style="--img:url('images/team-1.jpg')"></div>
+                    <h3>[Vorname Nachname]</h3>
+                    <p>Inhaber:in &amp; Landschaftsgärtner:in</p>
+                </li>
+                <li>
+                    <div class="ph ph--p" role="img" aria-label="Platzhalterporträt"
+                        style="--img:url('images/team-2.jpg')"></div>
+                    <h3>[Vorname Nachname]</h3>
+                    <p>Planung &amp; Bauleitung</p>
+                </li>
+                <li>
+                    <div class="ph ph--p" role="img" aria-label="Platzhalterporträt"
+                        style="--img:url('images/team-3.jpg')"></div>
+                    <h3>[Vorname Nachname]</h3>
+                    <p>Pflanzung &amp; Pflege</p>
+                </li>
+                <li>
+                    <div class="ph ph--p" role="img" aria-label="Platzhalterporträt"
+                        style="--img:url('images/team-4.jpg')"></div>
+                    <h3>[Vorname Nachname]</h3>
+                    <p>Pflaster &amp; Terrassenbau</p>
+                </li>
             </ul>
-            <button class="car-btn" data-next aria-label="Nächste Partner">›</button>
-        </div>
         </section>
 
+        <!-- <section class="sec sec--light sec--tight" aria-labelledby="h-partner">
+            <h2 id="h-partner" class="center h-sm">Partner &amp; Lieferanten</h2>
+
+            <div class="scroll-wrapper">
+                <div class="scroll-item scroll-item1"></div>
+                <div class="scroll-item scroll-item2"></div>
+                <div class="scroll-item scroll-item3"></div>
+                <div class="scroll-item scroll-item4"></div>
+                <div class="scroll-item scroll-item5"></div>
+                <div class="scroll-item scroll-item6"></div>
+                <div class="scroll-item scroll-item7"></div>
+            </div>
+        </section> -->
+        <section class="sec sec--light sec--tight" aria-labelledby="h-partner">
+            <h2 id="h-partner" class="center h-sm">Partner &amp; Lieferanten</h2>
+
+            <!-- 7 LOGO-PLÄTZE. Pro Partner einen Platzhalter-Inhalt ersetzen durch:
+       <img src="img/DATEINAME.svg" alt="Logo [Partnername]" width="300" height="200" loading="lazy">
+       Danach beim <li> die Klasse "brand--placeholder" entfernen.
+       Optional verlinken: das <img> in <a href="https://…" rel="noopener"> setzen.
+       Empfohlen: SVG oder PNG mit transparentem Hintergrund, Seitenverhältnis ca. 3:2. -->
+            <ul class="brands">
+                <figure class="brand__card">
+                    <div class="brand__logo"><img src="/img/header1.jpg" alt="Logo [Partnername]" width="300"
+                            height="200" loading="lazy"></div>
+                </figure>
+
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 2<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 3<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 4<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 5<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 6<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+                <li class="brand brand--placeholder">
+                    <figure class="brand__card">
+                        <div class="brand__logo"><span>Logo 7<br><small>hier einfügen</small></span></div>
+                    </figure>
+                </li>
+            </ul>
+        </section>
         <section class="sec sec--dark2" id="fuhrpark" aria-labelledby="h-fuhr">
-        <p class="eyebrow center">Fuhrpark</p>
-        <h2 id="h-fuhr" class="center">Starke Technik für saubere Arbeit</h2>
-        <!-- PLATZHALTER: Fahrzeuge, Daten und Bilder anpassen. -->
-        <ul class="fleet">
-            <li class="reveal"><div class="ph" role="img" aria-label="Platzhalter: Minibagger" style="--img:url('images/bagger.jpg')"></div><h3>Minibagger</h3><p>[Modell / Gewicht]</p><p>Für Erdarbeiten auf engem Raum.</p></li>
-            <li class="reveal"><div class="ph" role="img" aria-label="Platzhalter: Transporter" style="--img:url('images/transporter.jpg')"></div><h3>Transporter mit Anhänger</h3><p>[Modell / Nutzlast]</p><p>Material und Pflanzen sicher zur Baustelle.</p></li>
-            <li class="reveal"><div class="ph" role="img" aria-label="Platzhalter: Radlader" style="--img:url('images/radlader.jpg')"></div><h3>Radlader</h3><p>[Modell / Leistung]</p><p>Schüttgut, Kies und Substrat effizient bewegen.</p></li>
-        </ul>
+            <p class="eyebrow center">Fuhrpark</p>
+            <h2 id="h-fuhr" class="center">Starke Technik für saubere Arbeit</h2>
+            <!-- PLATZHALTER: Fahrzeuge, Daten und Bilder anpassen. -->
+            <ul class="fleet">
+                <li class="reveal">
+                    <div class="ph" role="img" aria-label="Platzhalter: Minibagger"
+                        style="--img:url('images/bagger.jpg')"></div>
+                    <h3>Minibagger</h3>
+                    <p>[Modell / Gewicht]</p>
+                    <p>Für Erdarbeiten auf engem Raum.</p>
+                </li>
+                <li class="reveal">
+                    <div class="ph" role="img" aria-label="Platzhalter: Transporter"
+                        style="--img:url('images/transporter.jpg')"></div>
+                    <h3>Transporter mit Anhänger</h3>
+                    <p>[Modell / Nutzlast]</p>
+                    <p>Material und Pflanzen sicher zur Baustelle.</p>
+                </li>
+                <li class="reveal">
+                    <div class="ph" role="img" aria-label="Platzhalter: Radlader"
+                        style="--img:url('images/radlader.jpg')"></div>
+                    <h3>Radlader</h3>
+                    <p>[Modell / Leistung]</p>
+                    <p>Schüttgut, Kies und Substrat effizient bewegen.</p>
+                </li>
+            </ul>
         </section>
 
-        <section class="sec sec--light" aria-labelledby="h-insta">
-        <p class="eyebrow center">Instagram</p>
-        <h2 id="h-insta" class="center">Einblicke von der Baustelle</h2>
-        <!-- PLATZHALTER: Keine echte Instagram-Anbindung. Kacheln durch eigene Bilder ersetzen und href auf Ihr Profil setzen. -->
-        <ul class="insta">
-            <li><a href="https://www.instagram.com/DEIN_PROFIL" aria-label="Beispiel-Beitrag 1 auf Instagram ansehen"><span class="ph" style="--img:url('images/insta-1.jpg')"></span></a></li>
-            <li><a href="https://www.instagram.com/DEIN_PROFIL" aria-label="Beispiel-Beitrag 2 auf Instagram ansehen"><span class="ph" style="--img:url('images/insta-2.jpg')"></span></a></li>
-            <li><a href="https://www.instagram.com/DEIN_PROFIL" aria-label="Beispiel-Beitrag 3 auf Instagram ansehen"><span class="ph" style="--img:url('images/insta-3.jpg')"></span></a></li>
-            <li><a href="https://www.instagram.com/DEIN_PROFIL" aria-label="Beispiel-Beitrag 4 auf Instagram ansehen"><span class="ph" style="--img:url('images/insta-4.jpg')"></span></a></li>
-        </ul>
-        <p class="center"><a class="btn" href="https://www.instagram.com/DEIN_PROFIL" rel="noopener">@dein_profil folgen <span aria-hidden="true">↗</span></a></p>
-        </section>
+        <section class="sec sec--forest" id="spenden" aria-labelledby="h-spenden">
+            <p class="eyebrow center">Spenden &amp; Auszeichnungen</p>
+            <h2 id="h-spenden" class="center">Engagement, das Wurzeln schlägt</h2>
+            <p class="lead center">[Platzhalter: Kurzer Text, wofür sich Ihr Betrieb engagiert, welche Organisation oder
+                welches Projekt unterstützt wird und welche Auszeichnungen Sie erhalten haben.]</p>
 
-        <section class="sec sec--tint" id="faq" aria-labelledby="h-faq">
-        <p class="eyebrow center">Häufige Fragen</p>
-        <h2 id="h-faq" class="center">Gut zu wissen</h2>
-        <div class="acc" data-acc>
-            <h3><button aria-expanded="false" aria-controls="a1" id="q1">Welche Leistungen bieten Sie an?</button></h3>
-            <div id="a1" role="region" aria-labelledby="q1" hidden><p>Gartenplanung, Neuanlage, Pflaster- und Terrassenbau, Pflanzkonzepte und Gartenpflege. [Leistungsumfang anpassen]</p></div>
-            <h3><button aria-expanded="false" aria-controls="a2" id="q2">Wie läuft ein Projekt ab?</button></h3>
-            <div id="a2" role="region" aria-labelledby="q2" hidden><p>Erstgespräch vor Ort, Entwurf und Angebot, Ausführung und Übergabe. Auf Wunsch folgt die Pflege.</p></div>
-            <h3><button aria-expanded="false" aria-controls="a3" id="q3">Wie erhalte ich ein Angebot?</button></h3>
-            <div id="a3" role="region" aria-labelledby="q3" hidden><p>Schreiben Sie uns kurz Ihr Vorhaben, am besten mit Fotos. Danach vereinbaren wir einen Termin. [Ablauf und Kosten des Angebots anpassen]</p></div>
-            <h3><button aria-expanded="false" aria-controls="a4" id="q4">Wie oft sollte ein Garten gepflegt werden?</button></h3>
-            <div id="a4" role="region" aria-labelledby="q4" hidden><p>Das hängt von Größe und Bepflanzung ab. Typisch sind Pflegegänge alle paar Wochen in der Saison. [Pflegeintervalle anpassen]</p></div>
-            <h3><button aria-expanded="false" aria-controls="a5" id="q5">In welchem Gebiet sind Sie tätig?</button></h3>
-            <div id="a5" role="region" aria-labelledby="q5" hidden><p>[Einsatzgebiet / Umkreis um Standort einfügen]</p></div>
-        </div>
-        <div class="ask" id="kontakt">
-            <div><h3>Noch Fragen?</h3><p>Wir melden uns schnell bei Ihnen. [E-Mail / Telefon ergänzen]</p></div>
-            <a class="btn" href="mailto:info@beispiel-firma.de">Kontakt aufnehmen <span aria-hidden="true">↗</span></a>
-        </div>
-        </section>
-        </main>
-
-        <footer class="foot">
-            <div class="foot__grid">
-                <div>
-                    <p class="logo">Gökmen LOGO</p>
-                    <p>Gökmen GmbH</p>
-                    <p>Garten- und Landschaftsbau</p>
+            <div class="give-grid">
+                <!-- SPENDEN: Alle Angaben sind Platzhalter. Echte Links, Kontodaten und Texte eintragen. -->
+                <div class="give">
+                    <h3>Spenden</h3>
+                    <article class="gift reveal">
+                        <h4>Online spenden</h4>
+                        <p>[Platzhalter: Kurzbeschreibung, wofür gespendet werden kann]</p>
+                        <!-- PLATZHALTER: href durch den echten Spendenlink ersetzen und Linktext anpassen -->
+                        <a class="btn" href="#spenden">Spendenlink einfügen <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="gift reveal">
+                        <h4>Per Überweisung</h4>
+                        <dl>
+                            <dt>Empfänger</dt>
+                            <dd>[Name des Empfängers]</dd>
+                            <dt>IBAN</dt>
+                            <dd>DE00 0000 0000 0000 0000 00 <span class="vh">(Platzhalter)</span></dd>
+                            <dt>Verwendungszweck</dt>
+                            <dd>[Verwendungszweck]</dd>
+                        </dl>
+                    </article>
+                    <article class="gift reveal">
+                        <h4>Sach- oder Pflanzenspende</h4>
+                        <p>[Platzhalter: Beschreibung einer möglichen Sach- oder Pflanzenspende bzw. Aktion in Ihrer
+                            Region]</p>
+                    </article>
                 </div>
-                <nav aria-label="Fußnavigation">
-                    <h2>Navigation</h2>
-                    <ul>
-                        <li><a href="#philosophie">Philosophie</a></li>
-                        <li><a href="#leistungen">Leistungen</a></li>
-                        <li><a href="#projekte">Projekte</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </nav>
-                <div>
-                    <h2>Kontakt</h2>
-                    <ul>
-                        <li><a href="https://maps.app.goo.gl/zyGv3Zoan73893Vj6?g_st=com.microsoft.skype.teams.extshare" target="_blank">Krainstraße 45 · 83026 Rosenheim</a></li>
-                        <li><i class="telephone-fill"></i><a href="tel:+491723666893">+49 172 366 68 93</a></li>
-                        <li><i class="telephone-fill"></i><a href="tel:+491729507131">+49 172 950 71 31</a></li>
-                        <li><a href="mailto:info@goekmen-gmbh.de">info@goekmen-gmbh.de</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Social</h2>
-                    <ul>
-                        <li><a href="https://www.instagram.com/goekmen.galabau/" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.facebook.com/p/G%C3%B6kmen-Garten-und-Landschaftsbau-GmbH-100063907963803/?locale=de_DE" target="_blank">Facebook</a></li>
+
+                <!-- AUSZEICHNUNGEN: Nur echte, belegbare Auszeichnungen eintragen. Weitere Einträge durch Kopieren eines <li> möglich. -->
+                <div class="give">
+                    <h3>Auszeichnungen</h3>
+                    <ul class="awards">
+                        <li class="award reveal">
+                            <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+                                <circle class="ring" cx="60" cy="60" r="54" pathLength="1"
+                                    transform="rotate(-90 60 60)" />
+                                <circle cx="60" cy="60" r="44" fill="none" stroke="#6D7037" stroke-width="1"
+                                    stroke-dasharray="2 5" />
+                                <g class="leaf">
+                                    <path
+                                        d="M60 82V54M60 58C46 58 44 46 44 40c10 0 16 6 16 18Zm0 6c12 0 16-8 16-16-10 0-16 6-16 16Z"
+                                        fill="none" stroke="#F5F6F2" stroke-width="2.4" stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <h4>[Auszeichnung 1]</h4>
+                            <p>[Verleihende Stelle · Jahr]</p>
+                        </li>
+                        <li class="award reveal">
+                            <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+                                <circle class="ring" cx="60" cy="60" r="54" pathLength="1"
+                                    transform="rotate(-90 60 60)" />
+                                <circle cx="60" cy="60" r="44" fill="none" stroke="#6D7037" stroke-width="1"
+                                    stroke-dasharray="2 5" />
+                                <g class="leaf">
+                                    <path
+                                        d="M60 82V54M60 58C46 58 44 46 44 40c10 0 16 6 16 18Zm0 6c12 0 16-8 16-16-10 0-16 6-16 16Z"
+                                        fill="none" stroke="#F5F6F2" stroke-width="2.4" stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <h4>[Auszeichnung 2]</h4>
+                            <p>[Verleihende Stelle · Jahr]</p>
+                        </li>
+                        <li class="award reveal">
+                            <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+                                <circle class="ring" cx="60" cy="60" r="54" pathLength="1"
+                                    transform="rotate(-90 60 60)" />
+                                <circle cx="60" cy="60" r="44" fill="none" stroke="#6D7037" stroke-width="1"
+                                    stroke-dasharray="2 5" />
+                                <g class="leaf">
+                                    <path
+                                        d="M60 82V54M60 58C46 58 44 46 44 40c10 0 16 6 16 18Zm0 6c12 0 16-8 16-16-10 0-16 6-16 16Z"
+                                        fill="none" stroke="#F5F6F2" stroke-width="2.4" stroke-linecap="round" />
+                                </g>
+                            </svg>
+                            <h4>[Auszeichnung 3]</h4>
+                            <p>[Verleihende Stelle · Jahr]</p>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <p class="foot__bot">© <span class="year"></span> Gökmen GmbH - Garten & Landschaftsbau · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
-        </footer>
+            <p class="note center">Hinweis: Alle Angaben in diesem Abschnitt sind Platzhalter und keine tatsächlichen
+                Spenden- oder Auszeichnungsdaten.</p>
+        </section>
 
-        <!-- Whatsapp Button fixed -->
-        <a class="wa" href="https://wa.me/491729507131" target="_blank" rel="noopener" aria-label="Per WhatsApp schreiben">
-            <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.3 0 .5l-.3.4-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.2 1.5 1.9 1 .9 1.900 1.200 2.200 1.300.3.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.800.9c.3.1.4.2.5.3.1.2.1.6-.1 1.200Z"/></svg>
-        </a>
-        <script src="./js/script.js" defer></script>
+        <section class="sec sec--dark" aria-labelledby="h-insta">
+            <p class="eyebrow center">Instagram</p>
+            <h2 id="h-insta" class="center">Einblicke von der Baustelle</h2>
+            <!-- PLATZHALTER: Keine echte Instagram-Anbindung. Kacheln durch eigene Bilder ersetzen und href auf Ihr Profil setzen. -->
+            <ul class="insta">
+                <li><a href="https://www.instagram.com/DEIN_PROFIL"
+                        aria-label="Beispiel-Beitrag 1 auf Instagram ansehen"><span class="ph"
+                            style="--img:url('images/insta-1.jpg')"></span></a></li>
+                <li><a href="https://www.instagram.com/DEIN_PROFIL"
+                        aria-label="Beispiel-Beitrag 2 auf Instagram ansehen"><span class="ph"
+                            style="--img:url('images/insta-2.jpg')"></span></a></li>
+                <li><a href="https://www.instagram.com/DEIN_PROFIL"
+                        aria-label="Beispiel-Beitrag 3 auf Instagram ansehen"><span class="ph"
+                            style="--img:url('images/insta-3.jpg')"></span></a></li>
+                <li><a href="https://www.instagram.com/DEIN_PROFIL"
+                        aria-label="Beispiel-Beitrag 4 auf Instagram ansehen"><span class="ph"
+                            style="--img:url('images/insta-4.jpg')"></span></a></li>
+            </ul>
+            <p class="center"><a class="btn" href="https://www.instagram.com/DEIN_PROFIL" rel="noopener">@dein_profil
+                    folgen <span aria-hidden="true">↗</span></a></p>
+        </section>
 
-        
-    </body>
+        <section class="sec sec--tint" id="faq" aria-labelledby="h-faq">
+            <p class="eyebrow center">Häufige Fragen</p>
+            <h2 id="h-faq" class="center">Gut zu wissen</h2>
+            <div class="acc" data-acc>
+                <h3><button aria-expanded="false" aria-controls="a1" id="q1">Welche Leistungen bieten Sie an?</button>
+                </h3>
+                <div id="a1" role="region" aria-labelledby="q1" hidden>
+                    <p>
+                    <h4>Garten- und Landschaftsbau</h4>
+                    <ol>
+                        <li>Neuanlage und Gestaltung individueller Gartenanlagen</li>
+                        <li>Anlage von Vorgärten sowie Zier- und Nutzgärten</li>
+                        <li>Pflanzarbeiten aller Art</li>
+                        <li>Pflege und Instandhaltung von Pflanzungen</li>
+                        <li>Anlage von Gartenteichen und Biotopen</li>
+                        <li>Dachbegrünungen</li>
+                    </ol>
+                    <h4>Pflaster- und Wegebau</h4>
+                    <ol>
+                        <li>Anlage und Pflasterung von Hauszugängen und Garagenzufahrten</li>
+                        <li>Pflasterarbeiten an Straßen, Wegen und Plätzen</li>
+                        <li>Gestaltung und Pflasterung von Terrassen</li>
+                    </ol>
+                    <h4>Erd- und Tiefbauarbeiten</h4>
+                    <ol>
+                        <li>Sämtliche Tiefbauarbeiten, insbesondere Kanalarbeiten</li>
+                        <li>Baggerarbeiten und Erdarbeiten</li>
+                    </ol>
+                    <h4>Gehölz- und Heckenpflege</h4>
+                    <ol>
+                        <li>Pflege und Schnitt von Obstbäumen</li>
+                        <li>Pflege und Schnitt von Hecken aller Art</li>
+                    </ol>
+                    <h4>Zäune und Sichtschutz</h4>
+                    <ol>
+                        <li>Errichtung von Zäunen</li>
+                        <li>Montage und Gestaltung von Sichtschutzlösungen</li>
+                    </ol>
+                    <h4>Winterdienst</h4>
+                    <ol>
+                        <li>Schneeräumung von Wegen und Zufahrten</li>
+                    </ol>
+                    </p>
+                </div>
+                <h3><button aria-expanded="false" aria-controls="a2" id="q2">Wie läuft ein Projekt ab?</button></h3>
+                <div id="a2" role="region" aria-labelledby="q2" hidden>
+                    <p>Erstgespräch vor Ort, Entwurf und Angebot, Ausführung und Übergabe. Auf Wunsch folgt die Pflege.
+                    </p>
+                </div>
+                <h3><button aria-expanded="false" aria-controls="a3" id="q3">Wie erhalte ich ein Angebot?</button></h3>
+                <div id="a3" role="region" aria-labelledby="q3" hidden>
+                    <p>Schreiben Sie uns kurz Ihr Vorhaben, am besten mit Fotos. Danach vereinbaren wir einen Termin.
+                        [Ablauf und Kosten des Angebots anpassen]</p>
+                </div>
+                <h3><button aria-expanded="false" aria-controls="a4" id="q4">Wie oft sollte ein Garten gepflegt
+                        werden?</button></h3>
+                <div id="a4" role="region" aria-labelledby="q4" hidden>
+                    <p>Das hängt von Größe und Bepflanzung ab. Typisch sind Pflegegänge alle paar Wochen in der Saison.
+                        [Pflegeintervalle anpassen]</p>
+                </div>
+                <h3><button aria-expanded="false" aria-controls="a5" id="q5">In welchem Gebiet sind Sie tätig?</button>
+                </h3>
+                <div id="a5" role="region" aria-labelledby="q5" hidden>
+                    <p>Unser Einsatzgebiet erstreckt sich über die Region Rosenheim und das Umland bis zu 80 km
+                        Entfernung. So können wir auch Kunden in der weiteren Umgebung zuverlässig betreuen.</p>
+                </div>
+            </div>
+            <div class="ask" id="kontakt">
+                <div>
+                    <h3>Noch Fragen?</h3>
+                    <p>Wir melden uns schnell bei Ihnen. [E-Mail / Telefon ergänzen]</p>
+                </div>
+                <a class="btn" href="mailto:info@beispiel-firma.de">Kontakt aufnehmen <span
+                        aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div class="foot__grid">
+            <div>
+                <p class="logo">Gökmen LOGO</p>
+                <p>Gökmen GmbH</p>
+                <p>Garten- und Landschaftsbau</p>
+            </div>
+            <nav aria-label="Fußnavigation">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="#philosophie">Philosophie</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#projekte">Projekte</a></li>
+                    <li><a href="#spenden">Spenden &amp; Auszeichnungen</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <h2>Kontakt</h2>
+                <ul>
+                    <li><a href="https://maps.app.goo.gl/zyGv3Zoan73893Vj6?g_st=com.microsoft.skype.teams.extshare"
+                            target="_blank">Krainstraße 45 · 83026 Rosenheim</a></li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg> <span><a href="tel:+491723666893"> +49 172 366 68 93</a></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg> <span><a href="tel:+491729507131"> +49 172 950 71 31</a></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg> <span><a href="mailto:info@goekmen-gmbh.de">info@goekmen-gmbh.de</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Social</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/goekmen.galabau/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/p/G%C3%B6kmen-Garten-und-Landschaftsbau-GmbH-100063907963803/?locale=de_DE"
+                            target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="foot__bot">© <span class="year"></span> Gökmen GmbH - Garten & Landschaftsbau · <a
+                href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    </footer>
+
+    <!-- Whatsapp Button fixed -->
+    <a class="wa" href="https://wa.me/491729507131" target="_blank" rel="noopener" aria-label="Per WhatsApp schreiben">
+        <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true">
+            <path fill="currentColor"
+                d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.3 0 .5l-.3.4-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.2 1.5 1.9 1 .9 1.900 1.200 2.200 1.300.3.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.800.9c.3.1.4.2.5.3.1.2.1.6-.1 1.200Z" />
+        </svg>
+    </a>
+    <script src="./js/script.js" defer></script>
+
+
+
+</body>
+
 </html>
